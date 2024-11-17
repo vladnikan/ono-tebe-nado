@@ -1,1 +1,286 @@
-/* место для вашего кода */
+/* надо еще раз все прочекать и сверить с рекомендациями */
+.header {
+  margin-top: 92px;
+  padding: 0 24px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-bottom: 96px;
+}
+
+.menu_list {
+  display: flex;
+  align-items: center;
+  list-style-type: "⚬";
+  gap: 32px;
+}
+
+.menu_list li {
+  padding: 12px;
+}
+
+.menu_list li:first-child {
+  list-style-type: none;
+}
+
+.header_logo {
+  padding-right: 150px;
+  /* как то наверное лучше без паддинга */
+}
+
+.header_logo_image {
+  width: 124px;
+  height: 95px;
+}
+
+.menu_contacts {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.menu_contacts li {
+  list-style-type: none;
+}
+
+.menu_link_underlined {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* cover section */
+/* картинка немного по другому должна быть */
+.cover {
+  position: relative;
+  background-image: url(/images/cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 757px;
+  width: 1100px;
+  z-index: -2;
+  margin-bottom: 92px;
+  flex-shrink: 0;
+}
+
+.cover h1,
+p,
+button {
+  color: rgb(255, 255, 255);
+}
+.cover p {
+  font-size: 22px;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.cover button {
+  font-size: 22px;
+  border: 1px solid white;
+  text-transform: uppercase;
+  padding: 12px 32px;
+  background: transparent;
+}
+
+.bet_button {
+    margin-top: 134px;
+    margin-left: 50px;
+}
+
+.cover_title {
+  padding-top: 165px;
+  letter-spacing: 30px;
+}
+
+.aligned_text {
+  letter-spacing: 20px;
+  padding-left: 50px;
+  font-size: 100px;
+}
+
+.aligned_text_center {
+  padding-left: 336px;
+  font-size: 100px;
+}
+
+/* переделать как нить адекватно */
+
+.aligned_text_last_letter {
+  padding-left: 40px;
+}
+
+.aligned_text_first_letter {
+  padding-right: 30px;
+}
+
+.aligned_text_right {
+  padding-left: 633px;
+  font-size: 100px;
+}
+
+/* переделать как нить адекватно */
+
+.cover_description {
+  display: flex;
+  padding-left: 78px;
+}
+
+.cover_description_text {
+  word-spacing: 22px;
+  padding-top: 147px;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  z-index: -1;
+}
+
+/* лоты */
+
+.lots {
+  gap: 300px;
+  margin-top: 179px;
+}
+
+.lots_card-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  padding: 0 24px;
+}
+
+.lots_heading {
+  margin-left: 40px;
+  margin-bottom: 27px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.lot_card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -2;
+}
+
+/* .card_type_film,
+.card_type_picture,
+.card_type_book{
+    position: relative;
+} */
+
+.card_type_film img,
+.card_type_picture img,
+.card_type_book img {
+  position: relative;
+  z-index: -2;
+  object-fit: cover;
+  width: 334px;
+  height: 563px;
+}
+
+.lot_name,
+.lot_description {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 51px;
+  right: auto;
+  width: 100%;
+  flex-wrap: wrap;
+  /* паддинг??? */
+}
+
+.lot_name {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  font-size: 22px;
+}
+
+.lot_description {
+  font-size: 20px;
+  padding-top: 200px;
+}
+
+.lots__look-more-link p {
+  font-size: 20px;
+  color: black;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  margin-left: 64px;
+  margin-top: 30px;
+}
+
+/* .lots__card-list-item{
+    position: absolute;
+    top:20px;
+}  */
+
+/* about */
+
+.about {
+  margin-top: 146px;
+}
+
+.about_column {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+}
+
+.about_logo {
+  width: 240px;
+  height: 240px;
+  justify-self: center;
+}
+
+.about_title {
+  justify-self: left;
+  align-self: center;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.about_text {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  width: 693px;
+  
+}
+
+.about_text p {
+  font-size: 20px;
+  color: black;
+  padding-top: 24px;
+}
+
+/* footer */
+
+.footer_section {
+  margin-top: 180px;
+  margin-bottom: 88px;
+}
+
+.footer_menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_menu li {
+  list-style-type: none;
+}
+
+.footer_menu_list {
+  text-align: center;
+}
+
+.footer_social_media_list {
+  display: flex;
+  gap: 48px;
+}
