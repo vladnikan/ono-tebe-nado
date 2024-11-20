@@ -1,7 +1,7 @@
 /* надо еще раз все прочекать и сверить с рекомендациями */
 .header {
   margin-top: 92px;
-  padding: 0 24px;
+  padding: 0 49px;
 }
 
 .menu {
@@ -15,7 +15,7 @@
   display: flex;
   align-items: center;
   list-style-type: "⚬";
-  gap: 32px;
+  gap: 5px;
 }
 
 .menu_list li {
@@ -109,7 +109,7 @@ button {
 /* переделать как нить адекватно */
 
 .aligned_text_last_letter {
-  padding-left: 40px;
+  padding-left: 30px;
 }
 
 .aligned_text_first_letter {
@@ -129,8 +129,8 @@ button {
 }
 
 .cover_description_text {
-  word-spacing: 22px;
-  padding-top: 147px;
+  word-spacing: 20px;
+  padding-top: 153px;
 }
 
 .overlay {
@@ -225,7 +225,7 @@ button {
 /* about */
 
 .about {
-  margin-top: 146px;
+  margin-top: 165px;
 }
 
 .about_column {
@@ -269,11 +269,12 @@ button {
 
 .footer_menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .footer_menu li {
   list-style-type: none;
+  font-size: 24;
 }
 
 .footer_menu_list {
@@ -283,4 +284,8 @@ button {
 .footer_social_media_list {
   display: flex;
   gap: 48px;
+}
+
+.footer_menu_contact{
+  width: 240px;
 }
