@@ -171,7 +171,6 @@ button {
   gap: 25px;
   padding: 0 24px;
   list-style: none;
-
 }
 
 .lots_heading {
@@ -190,12 +189,12 @@ button {
   background-repeat: no-repeat;
   width: 334px;
   min-height: 563px;
+  height: 100%;
   z-index: -2;
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  height: 563px;
 }
 
 .card_type_book {
@@ -204,15 +203,14 @@ button {
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  height: 563px;
 }
 
 .lots_card-list-item {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   height: 100%;
   color: white;
-  justify-content: space-between;
+  justify-content: flex-end;
   padding: 51px 40px;
 }
 
@@ -227,6 +225,7 @@ button {
 .lot_description {
   font-size: 20px;
   margin-top: auto;
+  justify-content: flex-end;
 }
 
 .lots_look-more-link p {
